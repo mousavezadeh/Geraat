@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:id="@+id/lrow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.36"
+        android:orientation="vertical">
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="center" android:id="@+id/txt_roozkar_row_h" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="0.36"/>
+
+        <TextView
+            android:id="@+id/txt_namelist_row_h"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.58"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="List38382561"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp" />
+    </LinearLayout>
+</LinearLayout>

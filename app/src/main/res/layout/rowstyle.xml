@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:background="#fafafa" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/abfa" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#9c9c9c" android:gravity="center" android:id="@+id/txt_roozkar_row_h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="45" android:layout_weight="0.36" android:layout_toLeftOf="@+id/imageView1" android:layout_alignBottom="@+id/imageView1"/>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#000000" android:gravity="left" android:id="@+id/txt_namelist_row_h" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="دریافت لیست قرائت آنلاین" android:layout_weight="0.58" android:layout_above="@+id/txt_roozkar_row_h" android:layout_alignParentLeft="true"/>
+</RelativeLayout>

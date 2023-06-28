@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@mipmap/input_box_error" android:layout_width="match_parent" android:layout_height="match_parent" android:minWidth="300dp" android:minHeight="250dp">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20dp" android:textColor="#3e3e3e" android:gravity="center" android:layout_gravity="center" android:id="@+id/textView1" android:background="@mipmap/input_box_error" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="اطلاعات تکمیلی"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/row_postalcode" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText android:textSize="20sp" android:id="@+id/txt_postalcode" android:layout_width="220dp" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:hint="کد پستی" android:ems="15" android:maxLength="10" android:inputType="number">
+                <requestFocus/>
+            </EditText>
+            <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#000000" android:id="@+id/lbl_postalcode" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:text="کد پستی"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="5dp">
+            <Button android:textSize="30sp" android:id="@+id/btn_make_out_file" android:layout_width="wrap_content" android:layout_height="60dp" android:layout_margin="2dp" android:text="ثبت" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_weight="1">
+            <Button android:textSize="30sp" android:id="@+id/btn_ret" android:layout_width="wrap_content" android:layout_height="60dp" android:layout_margin="2dp" android:text="بازگشت" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,1910 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="font_icon_user">&#xf108;</string>
+    <string name="hello">Hello World, GeraatActivity!</string>
+    <string name="app_name">نرم افزار قرائت کنتور </string>
+    <string name="name_moshtarek">نام مشترک</string>
+    <string name="date">تاریخ</string>
+    <string name="time">ساعت</string>
+    <string name="radif_tashkhis">ردیف تشخیص</string>
+    <string name="eshterak_number">شماره اشتراک</string>
+    <string name="karkard_feli">کارکرد فعلی</string>
+    <string name="address">آدرس</string>
+    <string name="karkard_ghabli">کارکرد قبلی</string>
+    <string name="date_ghabli">تاریخ قبلی</string>
+    <string name="bedehi">بدهی</string>
+    <string name="menu_gheraat">قرایت</string>
+    <string name="menu_mavared_khas">موارد خاص</string>
+    <string name="menu_jostejo">جستجو</string>
+    <string name="menu_gozaresh">گزارش</string>
+    <string name="menu_tanzimat">تنطیمات</string>
+
+    <color name="black">#000000</color>
+    <color name="sefid">#FFFFFF</color>
+    <color name="alarm">#00FF00</color>
+
+    <string name="title_activity_login">Login</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_tanzimat">Tanzimat</string>
+    <string name="title_activity_gps">GpsActivity</string>
+    <string name="title_activity_version">VersionActivity</string>
+    <string name="title_activity_main_activity_drawer">MainActivityDrawer</string>
+
+<string-array name="navigation_drawer_items_array">
+    <item>Create</item>
+    <item>Read</item>
+    <item>Help</item>
+</string-array>
+
+
+    <string name="jsonvalue">[
+  {
+    "name": "IllegalBranch",
+    "valueslist": [
+
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "1",
+        "Insertedid": "2",
+        "Otherid": "3"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "1",
+        "Insertedid": "2",
+        "Otherid": "3"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "1",
+        "Insertedid": "2",
+        "Otherid": "3"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      }
+    ]
+  },
+  {
+    "name": "pressure",
+    "valueslist": [
+
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      },
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      }
+    ]
+  },
+  {
+    "name": "test",
+    "valueslist": [
+
+      {
+        "Estateid": "4",
+        "Insertedid": "5",
+        "Otherid": "6"
+      }]}
+]</string>
+</resources>

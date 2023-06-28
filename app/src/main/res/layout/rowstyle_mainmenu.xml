@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout  android:visibility="gone" android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="40dp">
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="left" android:id="@+id/txt_namelist_row_h" android:paddingLeft="5dp" android:layout_width="300dp" android:layout_height="wrap_content" android:text="LC99P273D45C55F1T100"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="right" android:id="@+id/txt_roozkar_row_h" android:layout_width="100dp" android:layout_height="wrap_content" android:text="45"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linearlayout_tozihatelist" android:layout_width="match_parent" android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/txt_tozihatelist_row_h"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:text="لیست شهری دوره 273 روزکار 45 سیکل سیکل 55 از ردیف 1 تا ردیف 100 "
+            android:textAppearance="?android:attr/textAppearance" />
+    </LinearLayout>
+</LinearLayout>

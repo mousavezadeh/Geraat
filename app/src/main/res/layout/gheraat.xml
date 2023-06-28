@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layoutDirection="ltr" android:background="#292e32" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TableRow android:id="@+id/TableRow04" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ScrollView android:id="@+id/scrollView1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="right" android:orientation="vertical" android:background="#292e32" android:paddingLeft="2dp" android:paddingTop="10dp" android:paddingRight="2dp" android:paddingBottom="3dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="#e6e6e6" android:paddingBottom="-2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="10sp" android:textColor="#000000" android:gravity="center" android:id="@+id/TextView001" android:layout_width="130dp" android:layout_height="wrap_content" android:text="شماره اشتراک"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:background="#e6e6e6" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView_replacementofmeter"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1.2"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/tavizkontorpng1"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/imageView_undercounstruction"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1.2"
+                    android:scaleType="center"
+                    android:src="@mipmap/constructionworker"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/imageView_istemporalhousing"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1.2"
+                    android:scaleType="center"
+                    android:src="@mipmap/tent"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/txt_eshterak_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="17722"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:textSize="40sp" />
+
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="#e6e6e6" android:paddingBottom="-2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="15sp" android:textColor="#000000" android:gravity="center" android:id="@+id/txt_noee_ensheab" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="آب و فاضلاب"/>
+            </LinearLayout>
+            <LinearLayout android:textColor="#000000" android:gravity="right" android:orientation="horizontal" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#ffefefef" android:gravity="right" android:id="@+id/txt_name_moshtarek" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Name Of Moshtarek" android:layout_weight="1" android:textAlignment="center"/>
+                <TextView android:paddingRight="5dp" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#ffefefef" android:id="@+id/textView3" android:layout_width="50dp" android:layout_height="wrap_content" android:text="نام :"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:background="#e6e6e6" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="30sp" android:textColor="#000000" android:gravity="left" android:id="@+id/TextView_editradiftashkhis" android:paddingLeft="2dp" android:layout_width="80dp" android:layout_height="wrap_content" android:text="Edit mobile"/>
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#000000" android:gravity="center" android:id="@+id/txt_radif_tashkhis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rdadif Tashkhis" android:layout_weight="1"/>
+                <TextView android:paddingRight="5dp" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#000000" android:id="@+id/textView03030" android:layout_width="115dp" android:layout_height="wrap_content" android:text="رديف - کاربري:"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="30sp" android:textColor="#ffefefef" android:gravity="left" android:id="@+id/TextView_edittanehpolomp" android:paddingLeft="2dp" android:layout_width="80dp" android:layout_height="wrap_content" android:text="Edit mobile"/>
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#ffefefef" android:gravity="center" android:id="@+id/txt_kontor_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="841046 - 1002612" android:layout_weight="1"/>
+                <TextView android:paddingRight="5dp" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#ffefefef" android:id="@+id/TextView000001" android:layout_width="90dp" android:layout_height="wrap_content" android:text="تنه - پلمپ:"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:background="#e6e6e6" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="30sp" android:textColor="#000000" android:gravity="left" android:id="@+id/TextView_editmobile" android:paddingLeft="2dp" android:layout_width="80dp" android:layout_height="wrap_content" android:text="Edit mobile"/>
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#000000" android:gravity="center" android:id="@+id/txt_mobile" android:layout_width="200dp" android:layout_height="wrap_content" android:text="txt_kontor_poloomp" android:layout_weight="0.17"/>
+                <TextView android:paddingRight="5dp" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#000000" android:id="@+id/TextViewplp" android:layout_width="140dp" android:layout_height="wrap_content" android:text="موبايل:"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="30sp" android:textColor="#ffefefef" android:gravity="left" android:id="@+id/TextView_editaddress" android:paddingLeft="2dp" android:layout_width="80dp" android:layout_height="wrap_content" android:text="Edit mobile"/>
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#ffefefef" android:gravity="right" android:id="@+id/txt_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="txt_kontor_poloomp" android:maxLines="2" android:layout_weight="1"/>
+                <TextView android:paddingRight="5dp" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#ffefefef" android:id="@+id/TextView101" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="آدرس: " android:maxLines="2"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:background="#e6e6e6" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="30sp" android:textColor="#000000" android:gravity="left" android:id="@+id/TextView_editpostallcode" android:paddingLeft="2dp" android:layout_width="80dp" android:layout_height="wrap_content" android:text="Edit mobile"/>
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#000000" android:gravity="center" android:id="@+id/txt_postallcode" android:layout_width="200dp" android:layout_height="wrap_content" android:text="6196945169" android:layout_weight="0.17"/>
+                <TextView android:paddingRight="5dp" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#000000" android:id="@+id/TextViewpostallcode" android:layout_width="140dp" android:layout_height="wrap_content" android:text="کدپستي:"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/layout_bedehi" android:textColor="#000000" android:gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="40dp">
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#ffefefef" android:gravity="center" android:id="@+id/txt_bedehi" android:layout_width="200dp" android:layout_height="wrap_content" android:text="ریال" android:layout_weight="1"/>
+                <TextView android:paddingRight="5dp" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#ffefefef" android:id="@+id/txt_bedehi_title" android:layout_width="100dp" android:layout_height="wrap_content" android:text="بدهی آب بها: "/>
+            </LinearLayout>
+            <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/ll_propertycondition" android:background="#e6e6e6" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="30sp" android:textColor="#000000" android:gravity="left" android:id="@+id/TextView_editvazyatmelk" android:paddingLeft="2dp" android:layout_width="80dp" android:layout_height="wrap_content" android:text="Edit mobile"/>
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#000000" android:gravity="center" android:id="@+id/txt_vazyat_melk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="عادی" android:layout_weight="1"/>
+                <TextView android:paddingRight="5dp" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#000000" android:id="@+id/textView030300" android:layout_width="115dp" android:layout_height="wrap_content" android:text="وضعیت ملک:"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/ll_propertycondition2" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="30sp" android:textColor="#ffefefef" android:gravity="left" android:id="@+id/TextView_editvazyatensheab" android:paddingLeft="2dp" android:layout_width="80dp" android:layout_height="wrap_content" android:text="Edit mobile"/>
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#ffefefef" android:gravity="center" android:id="@+id/txt_vazyat_enshab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="فعال" android:layout_weight="1"/>
+                <TextView android:paddingRight="5dp" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#ffefefef" android:id="@+id/textView0303000" android:layout_width="120dp" android:layout_height="wrap_content" android:text="وضعیت انشعاب:"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:paddingBottom="2dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#000000" android:gravity="center" android:id="@+id/txt_meghdare_ghabli" android:background="@layout/shape" android:layout_width="200dp" android:layout_height="wrap_content" android:text="Meghdare Ghabli" android:layout_weight="1"/>
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#ffefefef" android:id="@+id/TextView0001" android:layout_width="130dp" android:layout_height="wrap_content" android:text="کارکرد قبلي:"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:paddingBottom="2dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#000000" android:gravity="center" android:id="@+id/txt_manee_ghabli" android:background="@layout/shape" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="manee Ghabli"/>
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#ffefefef" android:id="@+id/TextView00001" android:layout_width="130dp" android:layout_height="wrap_content" android:text="مانع قبلي:"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="#e6e6e6" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+
+                <TextView
+                    android:id="@+id/TextView_editdescriptions"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingLeft="2dp"
+                    android:text="Edit mobile"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+            <Button android:textColor="#000000" android:id="@+id/noe_gheraat" android:padding="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="نوع قرايت"/>
+            <EditText android:textColor="#000000" android:id="@+id/txt_karkard_feli" android:focusable="true" android:layout_width="100dp" android:layout_height="wrap_content" android:ems="10" android:maxLength="6" android:inputType="number"/>
+            <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#000000" android:gravity="right" android:id="@+id/TextView07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="کارکرد فعلي"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/displayolddata" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#ffffff" android:id="@+id/txt_readdateold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1399/01/01"/>
+            <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#ffffff" android:id="@+id/txt_readdateold_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="تاریخ قبلی:"/>
+            <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="   "/>
+            <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#ffffff" android:id="@+id/txt_readnumold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="12850"/>
+            <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#ffffff" android:id="@+id/txt_readnumold_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="رقم قبلی:"/>
+            <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="   "/>
+            <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#ffffff" android:id="@+id/txt_readcodeold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="دربسته"/>
+            <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#ffffff" android:id="@+id/txt_readcodeold_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="قرائت قبلی:"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="#292e32" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TableRow android:gravity="center" android:id="@+id/tableRow4" android:background="#3e444a" android:visibility="visible" android:layout_width="match_parent" android:layout_height="55dp" android:layout_marginTop="2dp">
+            <ImageButton android:id="@+id/ImageButton01" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_launcher"/>
+            <ImageButton android:id="@+id/btn_first" android:background="@mipmap/num_21" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/first" android:layout_weight="1"/>
+            <ImageButton android:id="@+id/btn_pre" android:background="@mipmap/num_21" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/back" android:layout_weight="1"/>
+            <ImageButton android:id="@+id/btn_save_next" android:background="@mipmap/num_21" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/saveandnext" android:layout_weight="1"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+            <ImageButton android:id="@+id/btn_next" android:background="@mipmap/num_21" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/next" android:layout_weight="1"/>
+            <ImageButton android:id="@+id/btn_last" android:background="@mipmap/num_21" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/last" android:layout_weight="1"/>
+        </TableRow>
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#ffffff" android:id="@+id/txt_record_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Record Number 1 Of 359 Record"/>
+
+
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="#292e32" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TableRow android:id="@+id/TableRow02" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:paddingBottom="2dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#000000" android:gravity="center" android:id="@+id/txt_tarikh_gheraat_ghabli" android:background="@layout/shape" android:layout_width="200dp" android:layout_height="wrap_content" android:text="Date gheraat Gbli"/>
+            <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#ffefefef" android:id="@+id/Text1View01" android:layout_width="130dp" android:layout_height="wrap_content" android:text="تاريخ قرايت قبلي:"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:paddingBottom="2dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#000000" android:gravity="center" android:id="@+id/txt_bedehi1" android:background="@layout/shape" android:layout_width="200dp" android:layout_height="wrap_content" android:text="Bedehi"/>
+            <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#000000" android:id="@+id/T1extView01" android:layout_width="130dp" android:layout_height="wrap_content" android:text="بدهي مشترک:"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:visibility="gone" android:layout_width="match_parent" android:layout_height="50dp">
+        <Spinner android:id="@+id/spinner1" android:visibility="gone" android:layout_width="92dp" android:layout_height="match_parent" android:layout_weight="0.26"/>
+    </LinearLayout>
+    <TableRow android:gravity="center" android:id="@+id/tableRow41" android:background="#e6e6e6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp">
+        <EditText android:textColor="#000000" android:id="@+id/txt_search_box" android:focusable="true" android:layout_width="250dp" android:layout_height="wrap_content" android:hint="" android:maxLength="12" android:inputType="number"/>
+        <Button android:textSize="30sp" android:id="@+id/btn_find_user" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+    </TableRow>
+    <ScrollView android:id="@+id/scrollView2" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="0.65">
+        <LinearLayout android:gravity="center"   android:orientation="horizontal" android:paddingBottom="2dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/btn_report" android:layout_width="99dp" android:layout_height="wrap_content" android:text="تنوع قرائت"/>
+            <Button android:id="@+id/btn_mobile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ثبت اطلاعات تکميلي"/>
+            <Button android:id="@+id/btn_CodeMamoor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="انتخاب مامور"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal"  android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#000000" android:gravity="center" android:id="@+id/txt_findbyname_name_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rdadif Tashkhis" android:layout_weight="1"/>
+        <TextView android:paddingRight="5dp" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#000000" android:id="@+id/txt_findbyname_name_title" android:layout_width="115dp" android:layout_height="wrap_content" android:text="نام"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal"  android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#000000" android:gravity="center" android:id="@+id/txt_findbyname_serialno_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rdadif Tashkhis" android:layout_weight="1"/>
+        <TextView android:paddingRight="5dp" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#000000" android:id="@+id/txt_findbyname_serialno_title" android:layout_width="115dp" android:layout_height="wrap_content"  android:text="شماره اشتراک"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal"  android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#000000" android:gravity="center" android:id="@+id/txt_findbyname_tanehpolomp_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rdadif Tashkhis" android:layout_weight="1"/>
+        <TextView android:paddingRight="5dp" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#000000" android:id="@+id/txt_findbyname_tanehpolomp_title" android:layout_width="115dp" android:layout_height="wrap_content"  android:text="تنه و پلمپ"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical|center_horizontal|center"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp">
+
+        <TextView
+            android:id="@+id/txt_findbyname_address_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Rdadif Tashkhis"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/txt_findbyname_address_title"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:text="آدرس"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+    </LinearLayout>
+</LinearLayout>

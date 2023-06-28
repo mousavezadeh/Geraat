@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#ff0000" android:gravity="center" android:id="@+id/txt_hilo_title" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="center" android:id="@+id/txt_hilo_detail" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="txt_hilo_detail"/>
+    <TextView android:layout_marginTop="10dp" android:textSize="28sp" android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="center" android:id="@+id/txt_message_hilow" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="مصرف کم تر از حد مجاز ، لطفا با دقت بیشتری بررسی نمایید."/>
+    <LinearLayout android:layout_marginTop="10dp" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" >
+        <Button
+
+            android:gravity="center"
+
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_margin="2dp"
+            android:text="تایید"
+            android:layout_weight="2.8"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/btn_ok_hilow"
+            />
+        <Button
+            android:id="@+id/btn_cancel_hilow"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_margin="2dp"
+
+            android:text="بازگشت" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/title_list_dialog_singlelinelayout_gheraat" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@+id/title_list_dialog_singleline_gheraat" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/rowstyle_header_simple"/>
+    </LinearLayout>
+    <ListView android:id="@+id/listView_code_gherat" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/divider"/>
+</LinearLayout>

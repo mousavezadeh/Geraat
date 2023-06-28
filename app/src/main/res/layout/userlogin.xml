@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <EditText android:id="@+id/txt_username" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="نام کاربری" android:ems="10" android:inputType="textPersonName" android:textAlignment="center">
+            <requestFocus/>
+        </EditText>
+        <EditText android:id="@+id/txt_password" android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="کلمه عبور" android:ems="10" android:inputType="textPassword" android:textAlignment="center"/>
+        <Button android:id="@+id/btn_login" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="20dp" android:layout_marginRight="5dp" android:text="ورود"/>
+    </LinearLayout>
+</LinearLayout>

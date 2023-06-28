@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:background="#d6d6d6" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@layout/shape" android:paddingTop="5dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TableRow android:id="@+id/TableRow03" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/header"/>
+        </TableRow>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/background" android:layout_width="match_parent" android:layout_height="70dp">
+            <TextView android:textSize="22sp" android:textColor="@color/sefid" android:gravity="center" android:layout_gravity="center" android:id="@+id/textView1_11" android:padding="3dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="اطلاعات زیر مربوط به لیست جاری میباشد"/>
+        </LinearLayout>
+        <include layout="@layout/dividerlayout"/>
+        <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:background="@drawable/background" android:layout_width="match_parent" android:layout_height="70dp">
+            <TextView android:textSize="18dp" android:textColor="@color/sefid" android:id="@+id/txt_file_name" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="18sp" android:textColor="@color/sefid" android:id="@+id/TextView04" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="نام فایل"/>
+        </LinearLayout>
+        <include layout="@layout/dividerlayout"/>
+        <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:background="@drawable/background" android:layout_width="match_parent" android:layout_height="70dp">
+            <TextView android:textSize="18dp" android:textColor="@color/sefid" android:id="@+id/txt_city_names" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="18sp" android:textColor="@color/sefid" android:id="@+id/TextView08" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="نام شهر"/>
+        </LinearLayout>
+        <include layout="@layout/dividerlayout"/>
+        <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:background="@drawable/background" android:layout_width="match_parent" android:layout_height="70dp">
+            <TextView android:textSize="18dp" android:textColor="@color/sefid" android:id="@+id/txt_tedad_records" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="18sp" android:textColor="@color/sefid" android:id="@+id/txt_tedad_record_lable" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="تعداد رکوردها"/>
+        </LinearLayout>
+        <include layout="@layout/dividerlayout"/>
+        <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:background="@drawable/background" android:layout_width="match_parent" android:layout_height="70dp">
+            <TextView android:textSize="18dp" android:textColor="@color/sefid" android:id="@+id/txt_doreh" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="18sp" android:textColor="@color/sefid" android:id="@+id/TextView01" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="دوره"/>
+        </LinearLayout>
+        <include layout="@layout/dividerlayout"/>
+        <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:background="@drawable/background" android:layout_width="match_parent" android:layout_height="70dp">
+            <TextView android:textSize="18dp" android:textColor="@color/sefid" android:id="@+id/txt_rozkar" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="18sp" android:textColor="@color/sefid" android:id="@+id/TextView06" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="روزکار"/>
+        </LinearLayout>
+        <include layout="@layout/dividerlayout"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="#d6d6d6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+            <Button android:textSize="20sp" android:id="@+id/btn_exit_bargozari" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="بازگشت" android:layout_weight="1"/>
+            <Button android:textSize="20sp" android:id="@+id/btn_test_file" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:text="بارگذاری" android:layout_weight="1"/>
+        </LinearLayout>
+        <Button android:id="@+id/btn_choicelist" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="انتخاب لیست قرائت"/>
+        <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:background="#d6d6d6" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

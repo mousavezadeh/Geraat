@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@mipmap/input_box_error" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@mipmap/input_box_error"
+            android:gravity="center"
+            android:text="ثبت رقم کنتور دربسته"
+            android:textColor="#3e3e3e"
+            android:textSize="25sp" />
+
+        <LinearLayout android:orientation="horizontal" android:id="@+id/row_postalcode" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <LinearLayout   android:layout_margin="5dp" android:background="@mipmap/input_box_error" android:orientation="vertical" android:visibility="gone"  android:id="@+id/closedoor_ln_name" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/closedoor_txt_name_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="نام مشترک"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="#3e3e3e"></TextView>
+            <TextView
+                android:id="@+id/closedoor_txt_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="سید محمد مهدی موسوی زاده"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="#3e3e3e"></TextView>
+
+        </LinearLayout>
+        <LinearLayout  android:layout_margin="5dp" android:background="@mipmap/input_box_error" android:orientation="vertical" android:visibility="gone" android:id="@+id/closedoor_ln_oldnum" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/closedoor_txt_oldnum_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="رقم قبلی"
+                android:textColor="#3e3e3e"
+                android:textSize="20sp"></TextView>
+            <TextView
+                android:id="@+id/closedoor_txt_oldnum"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="1270"
+                android:textColor="#3e3e3e"
+                android:textSize="20sp"></TextView>
+        </LinearLayout>
+        <LinearLayout  android:layout_margin="5dp" android:background="@mipmap/input_box_error" android:orientation="vertical" android:id="@+id/row_mobilenumber" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/closedoor_txt_serialno_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="شماره اشتراک"
+                android:textColor="#3e3e3e"
+                android:textSize="20sp"></TextView>
+            <EditText android:textSize="20sp" android:id="@+id/txt_closedoor_serialno" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:hint="شماره اشتراک" android:ems="15" android:maxLength="11" android:inputType="number"/>
+        </LinearLayout>
+        <LinearLayout  android:layout_margin="5dp" android:background="@mipmap/input_box_error" android:orientation="vertical" android:id="@+id/row_mobilenumber1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/closedoor_txt_new_num_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="رقم کنتور اعلام شده توسط مشترک"
+                android:textColor="#3e3e3e"
+                android:textSize="20sp"></TextView>
+            <EditText android:textSize="20sp" android:id="@+id/txt_illigalbranch_comment" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:hint="رقم کنتور" android:ems="15" android:maxLength="11" android:inputType="number"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="5dp">
+            <Button android:textSize="30sp" android:enabled="false" android:id="@+id/btn_illigalbranch_save" android:layout_width="wrap_content" android:layout_height="60dp" android:layout_margin="2dp" android:text="ثبت" android:layout_weight="1"/>
+            <Button android:textSize="30sp" android:id="@+id/btn_illigalbranch_ok" android:layout_width="wrap_content" android:layout_height="60dp" android:layout_margin="2dp" android:text="جستجو" android:layout_weight="1"/>
+
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_weight="1">
+            <Button android:textSize="30sp" android:id="@+id/btn_illigalbranch_cancel" android:layout_width="wrap_content" android:layout_height="60dp" android:layout_margin="2dp" android:text="بازگشت" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
